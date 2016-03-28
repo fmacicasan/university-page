@@ -1,2 +1,1 @@
-language: html
 after_success: curl -T index.html -u $FTP_USER:$FTP_PASSWORD ftp://users.utcluj.ro/public_html/
